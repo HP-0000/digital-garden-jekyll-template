@@ -4,6 +4,5 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
+게임 개발자
 
-Feel free to tell the world about what you love! 😍
