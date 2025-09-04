@@ -1,3 +1,6 @@
+---
+---
+
 
 ### **DDC와 팀워크의 핵심**
 
@@ -7,8 +10,7 @@ DDC의 주 목적은 빌드 작업 결과물을 공유하여 빌드 시간을 �
 ---
 
 ### **Perforce와 DDC의 역할 분리**
-
-![[Pasted image 20250903134727.png]]
+![](/Resource/20250903134727.png)
 
 - **원본 파일 (Perforce 관리)**: `Source`, `Config`, `Content`, `Shaders` 등 사람이 직접 만들고 수정하는 파일들은 **Perforce**로 버전 관리를 합니다.
     
