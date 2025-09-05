@@ -5,6 +5,7 @@
 P4 Admin 에서 다음과 같이 유저를 생성하였다.
 
 [관리자 - SuperUser 권한 부여] : ServerMaster 
+
 [협업 - Write 권한 부여] : Master , HP  
 
 
@@ -34,7 +35,7 @@ WorkSpace는 서버로부터 파일을 받을 로컬 저장소이다.
 
 ![](/Resource/20250904125325.png)
 
-빨간 십자가로 Add 표시가 뜨고 ChnageList 가 Pending 목록에 추가된 것이 보인다.
+빨간 십자가로 Add 표시가 뜨고 ChangeList 가 Pending 목록에 추가된 것이 보인다.
 기본적으로 파일이 변경되면 Default ChangeList 에 묶인다.
 원한다면 새 ChangeList를 만들어 선별적으로 변경 파일을 묶어 서버에 제출할 수 있다.
 
@@ -98,10 +99,8 @@ Resolve를 눌러 충돌을 해결해야한다.
 ![](/Resource/20250904150116.png)
 
 
--  ![파일1](https://help.perforce.com/helix-core/server-apps/p4merge/current/Content/Images/p4merge-file1_15x15.png) :  다른 사용자가 수정한 상대방 파일과 연결됩니다. 
-    
+- ![파일1](https://help.perforce.com/helix-core/server-apps/p4merge/current/Content/Images/p4merge-file1_15x15.png) :  다른 사용자가 수정한 상대방 파일과 연결됩니다. 
 - ![파일2](https://help.perforce.com/helix-core/server-apps/p4merge/current/Content/Images/p4merge-file2_15x15.png) : 사용자가 수정한 내 파일과 연결됩니다. 
-    
 - ![기본 파일](https://help.perforce.com/helix-core/server-apps/p4merge/current/Content/Images/p4merge-basefile_15x15.png) : 기준 파일과 연결됩니다. 
 
 
@@ -116,7 +115,7 @@ Resolve를 눌러 충돌을 해결해야한다.
 이번엔 [Master] 가 [HP]] 와 같은 스트림에서 작업한다고 가정하고
 Feature 스트림의 워크 스페이스를 하나 만든다.
 
-![[/Resource/20250904152012.png]]
+![](/Resource/20250904152012.png)
 
 
 [Master]가 Lock을 걸었다. 
