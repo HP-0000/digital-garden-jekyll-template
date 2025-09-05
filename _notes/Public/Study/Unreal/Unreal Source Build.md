@@ -11,15 +11,16 @@ https://github.com/EpicGames/UnrealEngine
 - Setup.bat 
 - GenerateProjectFiles.bat
 
-2. 설치 빌드
+2. 빌드
 
 개발자가 엔진 코드를 수정한 뒤 설치 빌드를 만들어 팀원에게 배포한다.
 
 https://dev.epicgames.com/documentation/ko-kr/unreal-engine/installed-build-reference-guide-for-unreal-engine
 
-![](/Resource/20250905102704.png)
 
-솔루션 파일을 열어 AutomationTool을 빌드한다.
+솔루션 파일을 열어 UE5를 빌드한다.
+
+![](/Resource/20250905102704.png)
 
 나의 경우 위와 같은 취약성 패키지및 아래와 같은 유형의 경고 에러가 많이 생겼다.
 ```
@@ -72,4 +73,9 @@ Debugging Tools for Windows 를 설치해주자
 
 ![](/Resource/20250905153633.png)
 
-끝! 만들어진 LocalBuilds 폴더를 공유하면 된다.
+만들어진 LocalBuilds 폴더를 공유하면 된다.
+
+
+참고로 Intermediate 폴더를 제외하니 dll 을 찾을 수 없다는 오류를 볼 수 있었다.
+프로젝트인 경우 해당 폴더는 제외하는 듯 보였는데 
+엔진인 경우 포함해서 배포해야 하는 듯.
