@@ -17,7 +17,7 @@ https://github.com/EpicGames/UnrealEngine
 
 https://dev.epicgames.com/documentation/ko-kr/unreal-engine/installed-build-reference-guide-for-unreal-engine
 
-![](/Resource/2020250905102704.png)
+![](/Resource/20250905102704.png)
 
 솔루션 파일을 열어 AutomationTool을 빌드한다.
 
@@ -42,11 +42,11 @@ https://dev.epicgames.com/documentation/ko-kr/unreal-engine/installed-build-refe
 9.0으로 제공되어 생긴 일인 것같다.
 
 
-![](/Resource/2020250905120015.png)
+![](/Resource/20250905120015.png)
 
 저 두 프로젝트를 한번 체크해서 System.Text.Json 을 전이시키는 패키지 버전을 낮춰야 한다.
 
-![](/Resource/2020250905120218.png)
+![](/Resource/20250905120218.png)
 잘 보니 MySql 버전을 적절히 낮춰야 할 듯 하다.  
 
 빌드가 완료 된 후 아래 배치파일을 실행했다.
@@ -64,12 +64,12 @@ pause
 
 [[DDC(Derived Data Cache)]]
 
-![](/Resource/2020250905151454.png)
+![](/Resource/20250905151454.png)
 
 오류 하나를 마주했다.
 https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 Debugging Tools for Windows 를 설치해주자
 
-![](/Resource/2020250905153633.png)
+![](/Resource/20250905153633.png)
 
 끝! 만들어진 LocalBuilds 폴더를 공유하면 된다.
