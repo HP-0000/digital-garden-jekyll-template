@@ -75,7 +75,29 @@ Debugging Tools for Windows 를 설치해주자
 
 만들어진 LocalBuilds 폴더를 공유하면 된다.
 
+이후 엔진 경로에 대한 레지스트리를 등록해야 하는데
+소스 빌드의 바이너리에 있는 UnrealVersionSelector-Win64-Shipping.exe 를 실행하면 편하다.
 
-참고로 Intermediate 폴더를 제외하니 dll 을 찾을 수 없다는 오류를 볼 수 있었다.
-프로젝트인 경우 해당 폴더는 제외하는 듯 보였는데 
-엔진인 경우 포함해서 배포해야 하는 듯.
+---
+
+.P4Ignore
+```
+# Generated build files
+
+*/Intermediate/
+*/Saved/
+
+# for Binary Engine 
+!*/Intermediate/Build/
+
+# Temporary files and logs
+*.tmp
+*.log
+*/obj
+
+# Visual Studio user options
+*.suo
+
+# Unreal Engine project files
+*.uproject.user
+```
