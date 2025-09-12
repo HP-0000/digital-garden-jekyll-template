@@ -83,6 +83,7 @@ Debugging Tools for Windows 를 설치해주자
 .P4Ignore
 ```
 # Generated build files
+*/__pycache__/
 
 */Intermediate/
 */Saved/
